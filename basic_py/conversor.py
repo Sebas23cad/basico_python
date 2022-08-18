@@ -1,9 +1,9 @@
-def run(cantidad, monedas):
+def run(cantidad, valor):
 
-    dolares = cantidad / monedas
-    dolares = round(dolares, 2)
+    dolares = cantidad / valor
+    dolares = str(round(dolares, 2))
 
-    print(f'tus {tipo} son: {cantidad} que equivalen a {dolares}$ dolares')
+    print(f'tus {tipo} son: {str(cantidad)} que equivalen a {dolares}$ dolares')
 
 
 if __name__ == '__main__':
@@ -20,20 +20,21 @@ if __name__ == '__main__':
     tipo = int(input(f'Que moneda tienes: {moneda.items()} : '))
 
     if tipo == 1:
-        monedas = 4184.76
+        valor = 4184.76
         tipo = 'Pesos colombianos'
     elif tipo == 2:
-        monedas = 134.61
+        valor = 134.61
         tipo = 'Yen japones'
     elif tipo == 3:
-        monedas = 6.8
+        valor = 6.8
         tipo = 'Yuan chino'
     elif tipo == 4:
-        monedas = 19.14
+        valor = 19.14
         tipo = 'Libra egipcia'
     else:
-        print('Erro, ingresa una opcion valida')
+        print('Error la opcion no existe, ingresa una opcion valida')
 
     cantidad = float(input(f'Caunto dinero tienes en {tipo} : '))
 
-    run(cantidad, monedas)
+    run(cantidad, valor)
+    
