@@ -14,4 +14,3 @@ def fibonaci(n):
 n = int(input('Que numero en la serie de fibonacci quieres: '))
 
 print(fibonaci(n))
-# Nos quedamos en la clase 22 rangos
