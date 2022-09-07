@@ -9,7 +9,7 @@ def factorial(n):
 
     return respuesta
 
-def factorial_r(n):
+def factoria_r(n):
     if n == 1:
         return 1
     
