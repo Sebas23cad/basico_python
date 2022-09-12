@@ -59,10 +59,57 @@ if __name__ == '__main__':
 
 ## Mentiras estadística
 
-#### garbage
+#### garbage in, garbage out
+
+>Tenemos varios bugs, si nos vamos por niveles los errores que tocaremos son los de tercer nivel son aquellos que estan en el diseño de la forma en que pensamos y llegamos a conclusiones.
+
+GIGO **significa que si le metes basura, te devolvera basura**. La calidad de nuestros datos es igual de importante que nuestros computos, si metes datos erroneos tus resultados tambien seran errados.
+
+#### Imagenes engañosas
+
+>Tener conclusiones precipidates despues de ver una imagen, estas te pueden engañar ya que es muy facil hacer imagenes que estan sesgadas de datos incorrectos, si una imagen no tiene etiquetas las tiras a la basura. Esta informacion no te sirve.
+
+Los errores son muy comunes y presentan graficas que estan hechas para sacar conclusiones incorrectas, sesgando y omitiendo algunos de los datos importantes para su conveniencia.
+
+#### Cum Hoc Ergo Propter Hoc
+
+>Una correlacion entre dos variables no significa causalidad, es decir, correlacion solo significa que dos cariables se mueven en un mismo sentido. El error es asignar causalidad en una correlacion.
+
+Lo que significa es **despues de esto, eso; entonces a consecuencia de esto, eso.**
+
+Piensa en un molino electrico o a motor hay varios factores correlacionales que hace que se mueva pero no significa que sean la causalidad, una persona adentro de este puede ayudar pero no es una causalidad directa. En este ejmplo solo tenemos una correlacion.
+
+#### Prejuicio en el muestreo
+
+>Cuando no tenemos una muestra aleatoria y representativa, nuestro resultado esta sesgado y no aplica para el caso general de la poblacion, es decir, que se escoje los datos que quiere con un tema o un topico en especifico y eso significa que no hay aleatoriedad y peor rrepresentatividad.
+
+Piensa quieres hacer un estudio de la poblacion, y lo unica poblacion que entrevistas son estudiantes universitarios, esto estaria bien si quieres el comportamiento o lo que sea que busques de solo estudiantes pero para toda la poblacion no aplica.
+
+#### Falacia del francotirador de Texas
+
+>Lo que pasa aqui es que no tenemos en cuenta la aleatoriedad en nuestros datos, como lo indica el nombre es un frnacotirador el cual tiene un objetivo especifico para apuntarle.
+
+Aqui algo que hacen es empesar a recojer datos antes de tener una hipotesis y esto es un error, ya que lo que te plnates va a estar sesgada en tus datos, ya que solo tienes datos que tu escojiste y sin aleatoriedad. Es como si disparas a una pare de madera y despues de disparas empiesas a pintar los circulos de objetivo en cada disparo. Este ejemplo es absurdo pero asi es como funciona esta falacia.
+
+#### Porcentajes confusos
+
+>Si no te dicen de donde salen los porcentajes no puedes extraer conclusiones, no te dan algo tan importante como el contexto.
+
+Hay ejemplos solo piensa en que si no te dan el contexto no puedes llegar a nada ya que puede ser un persentaje de lo que sea, y cuando digo lo que sea es lo que sea, incluso un estudio de personas que son mayores en tecnologia y le ponene porcentajes de personas que compran pan, esto es absurdo y es la forma mas simple de manipular los
+
+#### Falacia de regresión
+
+>Lo que pasa es que pensamos que despues de un evento extremo, va a volver a pasar otro evento igual de extremo. Es decir, en montecarlo cayo nose tantas veces negros seguidos que la gente pierdo mucho dinero pensando que va a salir rojo la misma cantidad y esto es falso lo unico que pasa es que volvemos a la probabilidad normal o media de esos datos.
+
+Normalmente cuando un evento fluctua existe una regresion a la media, lo cual es lo normal, como en todo hay sucesos o eventos los cuales pueden ser extremos pero despues siempre se regresa a la media.
+
 ---
 
 ## Introduccion al machine learning
+
+#### Introduccion al machine learning
+
+>as
 
 ---
 ## Agrupamiento
