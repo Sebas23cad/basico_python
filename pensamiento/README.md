@@ -59,7 +59,7 @@ if __name__ == '__main__':
 
 ## Mentiras estadística
 
-#### garbage in, garbage out
+#### Garbage in, garbage out
 
 >Tenemos varios bugs, si nos vamos por niveles los errores que tocaremos son los de tercer nivel son aquellos que estan en el diseño de la forma en que pensamos y llegamos a conclusiones.
 
@@ -87,7 +87,7 @@ Piensa quieres hacer un estudio de la poblacion, y lo unica poblacion que entrev
 
 #### Falacia del francotirador de Texas
 
->Lo que pasa aqui es que no tenemos en cuenta la aleatoriedad en nuestros datos, como lo indica el nombre es un frnacotirador el cual tiene un objetivo especifico para apuntarle.
+>Lo que pasa aqui es que no tenemos en cuenta la aleatoriedad en nuestros datos, como lo indica el nombre es un francotirador el cual tiene un objetivo especifico para apuntarle.
 
 Aqui algo que hacen es empesar a recojer datos antes de tener una hipotesis y esto es un error, ya que lo que te plnates va a estar sesgada en tus datos, ya que solo tienes datos que tu escojiste y sin aleatoriedad. Es como si disparas a una pare de madera y despues de disparas empiesas a pintar los circulos de objetivo en cada disparo. Este ejemplo es absurdo pero asi es como funciona esta falacia.
 
@@ -109,10 +109,42 @@ Normalmente cuando un evento fluctua existe una regresion a la media, lo cual es
 
 #### Introduccion al machine learning
 
->as
+>Es el campo de estudio que les da a las computadoras la habilidad de aprender sin ser explicitamente programadas.
+
+Se basa en utilizar probabilidad para llegar a mejores conclusiones y resultados. Los cuales son sorprendentes cada vez me sorprende mas, y la verdad no se que nos depare en el futuro pero quiero ser uno de los desarrolladores.
+
+#### Feature vectors
+
+>Es la forma de recojer algunas de las caracteristicas de los objetos de input para que los algoritmos puedan funcionar.
+
+Debemos saber que es lo importante para modelar nuestra realidad, es decir, si quieres modelar un celula o proteina que es lo importante para eso puede ser el numero de atomos o de que compuesto esta hecho, su forma, etc. Sabes es endenter cuales son las caracteristicas de vectores mas importantes de ese objeto para ser moldeado.
+
+#### Metricas de distancia
+
+>Nos dejan saber que tan lejanos o cercanos estan los vectores de nuestro algoritmo entre ellos.
+
+Lo que buscan la mayoria de algoritmos es obtimizar esta distancia entre vectores. Debes saber cual tipo de distancia que necesitas, porque si hay mas de un tipo de dsitancia como el de manhatan que se base en ir por las calles como si fuera una linea recta la cual no puede atravesar los edificios.
 
 ---
 ## Agrupamiento
+
+#### Introduccion al agrupamiento
+
+>Los algoritmos de agrupamiento nos dejan entender la estructura interna de los datos cuando no es necesario añadir etiquetas, tambien agrupamos cada uno de nuestros datos para entender que tan similares son cada uno.
+
+Para mas informacion de estos algoritmos les dejo un [articulo](https://towardsdatascience.com/the-5-clustering-algorithms-data-scientists-need-to-know-a36d136ef68) que esta super bueno, si no dominas ingles puedes traducirlo de manera muy sencilla con google translator.
+
+#### Agrupamiento jerarquico
+
+>Lo que hace es cojer un punto con otro y comparar la distancia y juntarlos en un conjunto si estan cercanos de manera iterativa.
+
+Es interesante este algoritmo ya que conforme vamos agrupando, se construye un grafico de endograma que nos muestra una relacion interezante.
+
+#### Agrupamiento K-means
+
+>Agrupa en grupos al hacer de manera que cada ves este va aprendiendo como los agrupa y llega a un punto donde ya no puede agrupar mas, es decir, es la solucion.
+
+Lo importante es saber cuantos grupos son los que necesito, si no se cuantos grupos son puede que tengamos un resultado erroneo. Mira aqui debes saber que puedes utilizar un muestreo de los datos porque este algoritmo es muy pesado y te llevara demasiado tiempo ya que su forma de crecer puede que este entre exponencial y cuadrada asi que buena suerte. [Articulo](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/http://www.it.uc3m.es/~jvillena/irc/practicas/08-09/06.pdf) para entender mejor como funciona este algoritmo.
 
 ---
 ## Clasificación
