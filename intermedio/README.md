@@ -60,7 +60,20 @@ pip install -r requeriments.txt
 
 ### Listas y diccionarios anidados
 
-Ahora
+Lo que vamos a ver es como crear listas que lleven diccionarios y diccionarios que lleven listas el [codigo](list_and_dicts.py).
+
+### list comprehensions
+
+Tenemos un reto y el cual es crear una lista de los 100 primeros numeros naturales al cuadrado, es decir, hacer una especie de tabla de potenciacion de los numeros al cuadrado. Aqui esta mi solucion en [codigo](./numeros_cuadrado.py).
+List comprehension es una estructura de python que se utiliza para crear nuevas listas, se puede o no poner la condicional, la estructura:
+
+`[element for element in iterable if condition]`
+
+El primer elemento representa cada uno de los elementos que se pondra en la lista, el ciclo a partir del cual se extraeran elementos de otra lista o un iterable, y al final la condicion para filtrar elementos del ciclo.
+Aqui les dejo una imagen para que se entienda mejor:
+![](https://miro.medium.com/max/2980/1*zJ0XfN1fkWSvll2Bg8o46g.png)
+![](https://static.platzi.com/media/user_upload/List_comprehensions1-bacd6262-4bc3-40c8-8c71-3da952e30b41.jpg)
+![](https://static.platzi.com/media/user_upload/List_comprehensions2-665fd48c-97a6-4ddb-939f-a0afcf5b8eda.jpg)
 
 ---
 
