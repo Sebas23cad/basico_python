@@ -58,7 +58,9 @@ pip install -r requeriments.txt
 
 ## Alternativa a los ciclos: comprehensions
 
-### Clases
+### Listas y diccionarios anidados
+
+Ahora
 
 ---
 
