@@ -75,11 +75,23 @@ Aqui les dejo una imagen para que se entienda mejor:
 ![](https://static.platzi.com/media/user_upload/List_comprehensions1-bacd6262-4bc3-40c8-8c71-3da952e30b41.jpg)
 ![](https://static.platzi.com/media/user_upload/List_comprehensions2-665fd48c-97a6-4ddb-939f-a0afcf5b8eda.jpg)
 
+[Solucion](reto1.py) del reto que nos dejo al final del video.
+
+### Dictionary comprehensions
+
+Aqui les dejo el primer archivo que vamos a usar que es el [ejemplo](dicts_compre.py). Ahora es lo mismo que el anterior pero lo unico es que añadimos dos valores adelante y lo usamos para crear diccionarios mucho mas rapido y eficas.
+
+![](https://static.platzi.com/media/user_upload/List_Dict_Comprehensions-478137d2-d3b8-4509-be4d-29eb0e455e8a.jpg). Aqui les dejo una imagen para que entiendan mejor, pero es muy sencillo.
+
+Aqui les dejo mi [solucion](reto2.py) del reto.
+
 ---
 
 ## Conceptos avanzados de funciones
 
-### Clases
+### Funciones anónimas: lambda
+
+as
 
 ---
 

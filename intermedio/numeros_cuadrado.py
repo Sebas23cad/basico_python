@@ -3,7 +3,6 @@
     numeros = []
     for i in range(1,101):
         print(i)
-        i += 1
         numeros.append(i)
     
     for valores in numeros:
