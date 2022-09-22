@@ -91,7 +91,24 @@ Aqui les dejo mi [solucion](reto2.py) del reto.
 
 ### Funciones anónimas: lambda
 
-as
+Son funciones las cuales no tienen un nombre o identificador, lo que le hace especial es la estructura
+`lambda argumentos: expresión`
+Los argumentos pueden ser todos los que necesesitemos pero solo puede tener una expresion o linea de codigo. Osea que puede tener todos los argumentos que quieras pero solo puede haber una linea de codigo. Aqui les dejo los ejemplos en [codigo](anonima_func.py) python.
+
+![](https://runestone.academy/runestone/books/published/fopp/_images/lambda.gif)
+![](https://i1.faceprep.in/Companies-1/python-lambda-functions-new.png)
+Cosas importantes es que con el nombre que llamamos a la funcion es con el nombre de la variable en la cual lo almacenamos, ahora este no es el nombre podria ser como su clave de un diccionario. Osea que solo es para saber a que nos referimos, lo que hace es guardar la funcion anonima en el y cuando lo usamos simplemente hace la funcion. en lambda no es necesario colocar la palabra return para que nos devuelva algo, este por si solo nos devuelve un valor.
+
+### High order functions: filter, map y reduce
+
+Una funcion de orden superior es la que recibe como parametro otra funcion y hace algo con ella. Aqui tenemos que saber que hay tres de estas que estan en casi todos los lenguajes y entenderemos las diferencias: [aplicado en codigo](high_func.py)
+
+- Filter:
+  Usando la funcion filter podemos filtrar los datos de lo que queramos y esta recive dos parametro, el primero es otra funcion o la operacion que quieres que se realice y el segundo es a donde se va a realizar.
+- Map:
+  Basicamente usamos la misma logica de codigo que la de arriva, y lo que hacemos es recorrer la lista o el iterable y hacemos la operacion que nos indica en la funcion.
+- Reduce:
+  Lo que hacemos basicamente es reducir nuestros valores o lo que tengamos con una funcion que creamos, la sintaxis es un poquito diferente ya que tenemos dos parametros y lo unico es que cada ves que hacemos esa operacion y se guarda en el primer parametro y en el segundo se almacena el siguiente elemento de la lista y haci hasta acabar. Lo unico que debemos hacer es importar esto de los modulos de pythin al principio del codigo.
 
 ---
 
