@@ -110,6 +110,9 @@ Una funcion de orden superior es la que recibe como parametro otra funcion y hac
 - Reduce:
   Lo que hacemos basicamente es reducir nuestros valores o lo que tengamos con una funcion que creamos, la sintaxis es un poquito diferente ya que tenemos dos parametros y lo unico es que cada ves que hacemos esa operacion y se guarda en el primer parametro y en el segundo se almacena el siguiente elemento de la lista y haci hasta acabar. Lo unico que debemos hacer es importar esto de los modulos de pythin al principio del codigo.
 
+Notas y programa de la clase filtrar datos en [codigo](filtrar_datos.py).
+Solucion del proyecto [filtrar datos.](filtrar_challenge.py)
+
 ---
 
 ## Manejo de errores
