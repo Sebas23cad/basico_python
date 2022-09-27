@@ -117,7 +117,18 @@ Solucion del proyecto [filtrar datos.](filtrar_challenge.py)
 
 ## Manejo de errores
 
-### Clases
+### Los errores en el codigo
+
+Basicamente tenemos dos tipos de errores los que python nos avisa y los que no.
+Los que nos avisa son dos tipos las exception y los syntaxError, que basicamente que basicamente hay un ponton de estos asi que mejor lean y con todo les dejo unas imagenes que lo entiendan mejor.
+Ahora los que no nos avisa son aquellos los cuales son problemas de logica, ya que aqui necesitas repasarlo de pies a cabeza una ves para ver el error, a mi me pasa que me equivoco y pongo estos simbolos <>, cambiados, esto es error de logica nada mas.
+Un consejo los errores siempre leelos del final hacia el principio, desde la ultima linea hasta el principio.
+![Imagen de los slide de la clase](https://static.platzi.com/media/user_upload/error-62a56437-8b39-4cd9-85da-0dac5854ee3d.jpg)
+![Apuntes para entenderlo mejor](https://static.platzi.com/media/user_upload/image_362-3ab90bf4-92f4-46b4-8b81-43e4e36b6f8f.jpg)
+
+### Debugging
+
+As
 
 ---
 
