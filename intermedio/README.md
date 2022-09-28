@@ -128,7 +128,12 @@ Un consejo los errores siempre leelos del final hacia el principio, desde la ult
 
 ### Debugging
 
-As
+Vamos a ver como resolver los errores y vamos a crear un archivo el cual lo usaremos como archivo de prueba.[El archivo](debugging.py)
+La verdad no se porque a mi no me vale todo lo que esta haciendo el profe y no se me reinicia, pero con todo les dejo la documentacion [oficial](https://code.visualstudio.com/docs/python/debugging) para que se informen. Si te has preguntado para que eran esos puntos rojos al lado de nuestro editor es basicamente para cuando estes depurando tu programa se dentendra en ese punto que señales.
+
+### Manejo de excepciones
+
+a
 
 ---
 
