@@ -133,7 +133,9 @@ La verdad no se porque a mi no me vale todo lo que esta haciendo el profe y no s
 
 ### Manejo de excepciones
 
-a
+- Try, except: Intenta esto excepto o a ecepcion de esto otro, asi funciona. [Solucion](excepciones.py).
+- Raise: Es una capa de proteccion extra la cual nos ayuda con errores los cuales podrian ser mas de logica como que ingresen una cadena vacia.
+- Finally: Seria como ultima opcion porque cierra el archivo halla o no errores.
 
 ---
 
