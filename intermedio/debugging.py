@@ -16,15 +16,17 @@ def run():
 if __name__ == '__main__':
     run() """ 
 
-def divisors(num):
+""" def divisors(num):
     divisors = []
     for i in range(1, num + 1):
         if num % i == 0:
             divisors.append(i)
     return divisors
 
+# Mi solucion :)
+
 def run():
-    num = int(input('Ingresa un numero: '))
+    num = input('Ingresa un numero: ')
     # print(divisors(num))
     # print('Termino mi programa')
     try:
@@ -33,8 +35,36 @@ def run():
         return print(divisors(num))
     except ValueError as ve:
         print(ve)
-        return False
+        return False """
 
+
+    
+def divisors(num):
+    divisors = []
+    for i in range(1, num + 1):
+        if num % i == 0:
+            divisors.append(i)
+    return divisors
+
+""" def run():
+    try:
+        num = int(input('Escribe un numero: '))
+        print(divisors(num))
+        print('Termino el programa')
+    except ValueError:
+        print('Debes ingresar un numero') """
+
+def run():
+    try:
+        num = int(input('Escribe un numero: '))
+        if num <= 0:
+            raise ValueError('No admitimos numeros negativos')
+        return print(divisors(num))
+    except ValueError as ve:
+        print(ve)
+        print('Debes ingresar un numero')
+        return False
+        
 
 if __name__ == '__main__':
     run()

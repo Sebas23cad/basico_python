@@ -137,6 +137,16 @@ La verdad no se porque a mi no me vale todo lo que esta haciendo el profe y no s
 - Raise: Es una capa de proteccion extra la cual nos ayuda con errores los cuales podrian ser mas de logica como que ingresen una cadena vacia.
 - Finally: Seria como ultima opcion porque cierra el archivo halla o no errores.
 
+### Assert statements
+
+Es otra forma de manejar errores y basicamente son afirmaciones, las cuales son super simples si lo que dice se cumple nos devuelve true para continuar con el codigo y si no un error. [Codigo](afirmacion.py)
+
+```py
+assert condicion, mensaje de error
+```
+
+> Se le afirmo que la condicion es verdadera y sino imprime el mensaje de error.
+
 ---
 
 ## Manejo de archivos
