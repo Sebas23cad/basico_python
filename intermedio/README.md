@@ -151,4 +151,27 @@ assert condicion, mensaje de error
 
 ## Manejo de archivos
 
-### Clases
+### Como trabajar con archivos?
+
+Entendiendo que hay varios tipos de archivos, vamos en este curso a manejar archivos txt, pero no te limites y puedes aprender mas archivos como los de mp3, etc.
+Cada uno tiene su magia y su forma ya que se componene por diferentes cosas a los archivos de texto plano lo dividimos en una categoria y creamos otra con archivos binarios los cuales son todos los que no sean texto plano como: musica, video, etc.
+
+#### Modos de apertura
+
+Veremos como manipular los archivos con tres comandos iniciales:
+
+>R -> Lectura (Solo leemos algo asi como cat en la terminal o header.)
+>W -> Escritura (Sobrescribimos el archivo, es decir remplasamos todo lo de adentro por lo nuevo.)
+>A -> Escritura (Agregar al final, solo añadimos lo nuevo.)
+
+Con esta linea podemos manejar archivos:
+`with opne("./ruta/del/archivo.txt", "r") as f:`
+- El with maneja el archivo y es sencillo, si el programa se cierra inesperadamente o pasa algo, no se rompera el archivo.
+- As lo usamos para darnos nombres mas sencillos y poder trabajarlo mas facil mente como arriba lo que hicimos es al valueError llamarlo ve.
+
+Aqui les dejo el [codigo](archivos.py)
+
+### Juego de arcoda
+
+Mi [solucion](ahorcadoMe.py), la dividire en dos para no confundirme.
+Solucion del [curso](plarziAhorcado.py).
