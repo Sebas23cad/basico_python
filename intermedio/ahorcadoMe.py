@@ -1,22 +1,25 @@
 import random
 
 def iniciar():
-    inicio = input('''
-Adivina la palabra
-------------
-Ingresa una letra: ''')
-    diccionario()
-    return inicio
+    palabra = "------"
+    letra = input(f'''
+Bienvenido al juego del ahoracado:
+{palabra}
+Escribe una letra: ''')
+    escojer_palabra()
+    return letra, palabra
 
-def diccionario():
-    with open("./archivos/data.txt", "r", encoding="utf-8") as f:
-        names = [line for line in f]
-    return names
 
-def adivina(letra, palabras):
-    palabra = random.randint(0, len(palabras))
-    print(palabra)
+def escojer_palabra():
+    try:
+        with open("./archivos/data.txt", "r", encoding="utf-8") as f:
+            first_name = f.readlines()
+        print(first_name)
+        # Usar la funcion map con lamdab y rstrip para remover el salto de linea
+    except FileNotFoundError:
+        print('El archivo no existe')
 
+    names = {i: first_name[i] for i in range(0, len(first_name))}
 
 def run():
     iniciar()
