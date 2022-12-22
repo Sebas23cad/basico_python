@@ -1,4 +1,5 @@
 import random
+import os
 
 
 def escojer_palabra():
@@ -22,11 +23,12 @@ def iniciar():
 Bienvenido al juego del ahoracado:
 {palabra}
 Escribe una letra: ''')
-    return letra, palabra
+    return palabra
 
 
 def run():
     iniciar()
+    os.system()
 
 
 if __name__ == '__main__':
